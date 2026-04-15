@@ -1,0 +1,32 @@
+# Go
+daemon/chaskd
+*.exe
+
+# PHP / Composer
+panel/vendor/
+panel/.env
+panel/writable/logs/*
+panel/writable/cache/*
+panel/writable/session/*
+panel/writable/uploads/*
+!panel/writable/logs/.gitkeep
+!panel/writable/cache/.gitkeep
+!panel/writable/session/.gitkeep
+!panel/writable/uploads/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups
+backups/
+
+# Logs
+*.log
